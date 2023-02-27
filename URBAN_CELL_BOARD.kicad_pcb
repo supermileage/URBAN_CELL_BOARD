@@ -2372,7 +2372,7 @@
 
   (footprint "Phoenix_1889262:1889262" (layer "F.Cu")
     (tedit 0) (tstamp c45a7614-3963-4521-91e1-b8c48de39ad2)
-    (at 143.51 271.635)
+    (at 143.51 272.27)
     (descr "1889262")
     (tags "Connector")
     (property "Sheetfile" "File: URBAN_CELL_BOARD.kicad_sch")
