@@ -5,7 +5,7 @@
 	(uuid "20506cd0-e673-46ee-a624-051684636591")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Female"
+		(symbol "Connector:Screw_Terminal_01x01"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -19,7 +19,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x01_Female"
+			(property "Value" "Screw_Terminal_01x01"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "ki_keywords" "screw terminal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*"
+			(property "ki_fp_filters" "TerminalBlock*:*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,10 +72,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x01_Female_1_1"
+			(symbol "Screw_Terminal_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
 					)
 					(stroke
 						(width 0.1524)
@@ -85,10 +96,21 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1549,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 100.33) (xy 148.59 100.33)
+			(xy 134.62 104.14) (xy 147.32 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1579,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 92.71) (xy 148.59 92.71)
+			(xy 134.62 96.52) (xy 147.32 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1659,7 +1681,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 88.9) (xy 148.59 92.71)
+			(xy 147.32 92.71) (xy 147.32 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1679,7 +1701,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.955 71.12) (xy 147.955 73.66)
+			(xy 147.32 73.66) (xy 147.32 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1709,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 100.33) (xy 148.59 104.14)
+			(xy 147.32 104.14) (xy 147.32 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1766,16 +1788,6 @@
 			(type default)
 		)
 		(uuid "6485ac5d-db2f-4c19-be8e-ec3959b06154")
-	)
-	(wire
-		(pts
-			(xy 139.065 71.12) (xy 147.955 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65625587-0c18-4db5-9904-2d27d7edecba")
 	)
 	(wire
 		(pts
@@ -1919,13 +1931,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 68.58) (xy 147.32 68.58)
+			(xy 138.43 68.58) (xy 147.32 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa910ade-93fd-465c-ae47-5b107f60a28c")
+	)
+	(wire
+		(pts
+			(xy 138.43 73.66) (xy 147.32 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9e2640-5f19-4a04-98ea-958376dff9e3")
 	)
 	(wire
 		(pts
@@ -2140,7 +2162,7 @@
 	)
 	(text "Load Connector (to car)"
 		(exclude_from_sim no)
-		(at 119.38 85.09 0)
+		(at 118.11 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2162,7 +2184,7 @@
 	)
 	(text "Charge Connector"
 		(exclude_from_sim no)
-		(at 123.825 59.69 0)
+		(at 122.428 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3017,31 +3039,31 @@
 	)
 	(symbol
 		(lib_id "WP-SHFU:WP-SHFU")
-		(at 130.81 100.33 90)
+		(at 129.54 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "424e554b-3681-4590-a1a5-ff11645f55cd")
-		(property "Reference" "MP2"
-			(at 129.032 104.394 90)
+		(property "Reference" "J5"
+			(at 127.762 108.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WP-SHFU"
-			(at 129.286 106.68 90)
+		(property "Value" "Term_01x01_M10"
+			(at 128.016 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 130.81 100.33 0)
+		(property "Footprint" "URBAN_CELL_CUSTOM_footprints:WURTH_M10_36PIN_TERM_7461100"
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,8 +3071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 130.81 100.33 0)
+		(property "Datasheet" "https://www.we-online.com/redexpert/spec/7461100?ae"
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3081,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 100.33 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3068,7 +3090,7 @@
 			)
 		)
 		(property "THREAD" "M10"
-			(at 130.81 100.33 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3078,7 +3100,7 @@
 			)
 		)
 		(property "IR" "350A"
-			(at 130.81 100.33 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3110,7 @@
 			)
 		)
 		(property "VALUE" "7461100"
-			(at 130.81 100.33 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,17 +3120,7 @@
 			)
 		)
 		(property "PART-NUMBER" "7461100"
-			(at 130.81 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/7461100?ae"
-			(at 130.81 100.33 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3130,7 @@
 			)
 		)
 		(property "PINS" "36"
-			(at 130.81 100.33 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3145,7 @@
 		(instances
 			(project ""
 				(path "/20506cd0-e673-46ee-a624-051684636591"
-					(reference "MP2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3277,16 +3289,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 104.14 0)
+		(at 147.32 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c40cc46-e1ce-452c-9cc1-333cb871b68e")
 		(property "Reference" "#PWR08"
-			(at 148.59 110.49 0)
+			(at 147.32 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3306,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 109.22 0)
+			(at 147.32 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,7 +3314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 104.14 0)
+			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,7 +3323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 104.14 0)
+			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3321,7 +3332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 104.14 0)
+			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,8 +3487,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
-		(at 133.985 68.58 180)
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 133.35 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3485,32 +3496,23 @@
 		(dnp no)
 		(uuid "73835217-2342-4e74-b243-2594edd1a62e")
 		(property "Reference" "J2"
-			(at 131.445 68.58 0)
+			(at 129.794 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Female"
-			(at 119.38 68.58 0)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 116.84 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Phoenix_1889262:1889262"
-			(at 133.985 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1889262.pdf"
-			(at 133.985 68.58 0)
+		(property "Footprint" "URBAN_CELL_CUSTOM_footprints:MOLEX_01X01_BARRIER_BLOCK"
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,8 +3520,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 133.985 68.58 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/molex/0387006301/3315679"
+			(at 133.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,41 +3683,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
-		(at 133.985 71.12 180)
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 133.35 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7cd7a55c-d470-4b7c-ae21-15f755e6fe2d")
-		(property "Reference" "J4"
-			(at 132.08 71.755 0)
+		(property "Reference" "J3"
+			(at 129.794 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Female"
-			(at 120.015 71.755 0)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 116.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Phoenix_1889262:1889262"
-			(at 133.985 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1889262.pdf"
-			(at 133.985 71.12 0)
+		(property "Footprint" "URBAN_CELL_CUSTOM_footprints:MOLEX_01X01_BARRIER_BLOCK"
+			(at 133.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,8 +3716,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 133.985 71.12 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/molex/0387006301/3315679"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3740,7 @@
 		(instances
 			(project ""
 				(path "/20506cd0-e673-46ee-a624-051684636591"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4195,7 +4206,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.955 73.66 0)
+		(at 147.32 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4204,7 +4215,7 @@
 		(fields_autoplaced yes)
 		(uuid "caac0403-4a51-4348-9e36-4580571a595c")
 		(property "Reference" "#PWR06"
-			(at 147.955 80.01 0)
+			(at 147.32 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4224,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.955 78.105 0)
+			(at 147.32 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.955 73.66 0)
+			(at 147.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.955 73.66 0)
+			(at 147.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4250,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.955 73.66 0)
+			(at 147.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,31 +4336,31 @@
 	)
 	(symbol
 		(lib_id "WP-SHFU:WP-SHFU")
-		(at 130.81 92.71 90)
+		(at 129.54 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d1b9f6ff-7794-4d8f-b785-7b55e194744a")
-		(property "Reference" "MP1"
-			(at 129.54 87.122 90)
+		(property "Reference" "J4"
+			(at 128.27 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WP-SHFU"
-			(at 130.048 89.154 90)
+		(property "Value" "Term_01x01_M10"
+			(at 128.778 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 130.81 92.71 0)
+		(property "Footprint" "URBAN_CELL_CUSTOM_footprints:WURTH_M10_36PIN_TERM_7461100"
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,8 +4368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 130.81 92.71 0)
+		(property "Datasheet" "https://www.we-online.com/redexpert/spec/7461100?ae"
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4378,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 92.71 0)
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4387,7 @@
 			)
 		)
 		(property "THREAD" "M10"
-			(at 130.81 92.71 0)
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4397,7 @@
 			)
 		)
 		(property "IR" "350A"
-			(at 130.81 92.71 0)
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4407,7 @@
 			)
 		)
 		(property "VALUE" "7461100"
-			(at 130.81 92.71 0)
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,17 +4417,7 @@
 			)
 		)
 		(property "PART-NUMBER" "7461100"
-			(at 130.81 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/7461100?ae"
-			(at 130.81 92.71 0)
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +4427,7 @@
 			)
 		)
 		(property "PINS" "36"
-			(at 130.81 92.71 0)
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4442,7 @@
 		(instances
 			(project ""
 				(path "/20506cd0-e673-46ee-a624-051684636591"
-					(reference "MP1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4582,7 +4583,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 148.59 88.9 0)
+		(at 147.32 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4590,7 +4591,7 @@
 		(dnp no)
 		(uuid "e678e84d-7115-4a30-8992-714520345ade")
 		(property "Reference" "#PWR07"
-			(at 148.59 92.71 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,7 +4600,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 147.955 85.725 0)
+			(at 146.812 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 88.9 0)
+			(at 147.32 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 88.9 0)
+			(at 147.32 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4626,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 88.9 0)
+			(at 147.32 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

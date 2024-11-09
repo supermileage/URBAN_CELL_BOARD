@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "URBAN_CELL_CUSTOM_footprints")(type "KiCad")(uri "${KIPRJMOD}/URBAN_CELL_CUSTOM_footprints.pretty")(options "")(descr ""))
+)
