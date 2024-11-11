@@ -1500,6 +1500,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "cdbff1f4-4d71-4381-87fc-fffcdb5da1e6")
 		)
+		(model "${KIPRJMOD}/URBAN_CELL_CUSTOM_models/WURTH_M10_36PIN_TERM_7461100.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-18A2_2x09_P4.20mm_Horizontal"
 		(layer "F.Cu")
@@ -2253,6 +2264,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/URBAN_CELL_CUSTOM_models/MOLEX_MINIFITJR_02x09.stp"
+			(offset
+				(xyz 17 14 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 -180)
 			)
 		)
 	)
@@ -4369,6 +4391,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "5046cf6a-78d1-4cbf-9aef-b30bb70241cf")
+		)
+		(model "${KIPRJMOD}/URBAN_CELL_CUSTOM_models/WURTH_M10_36PIN_TERM_7461100.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "MountingHole:MountingHole_8.4mm_M8"
