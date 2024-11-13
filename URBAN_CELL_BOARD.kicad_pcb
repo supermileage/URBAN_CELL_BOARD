@@ -106,7 +106,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plotreference yes)
-			(plotvalue yes)
+			(plotvalue no)
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerbers2.0/")
+			(outputdirectory "gerbers2.1/")
 		)
 	)
 	(net 0 "")
@@ -883,7 +883,7 @@
 	(footprint "URBAN_CELL_CUSTOM_footprints:WURTH_M10_36PIN_TERM_7461100"
 		(layer "F.Cu")
 		(uuid "6f3d5b70-07b5-49a2-9ec6-cd11dfdd94e0")
-		(at 138.98 271.56)
+		(at 139.9 271.6)
 		(descr "<b>WP-SHFU External thread, full plain<br></b>Drill hole specification for chemical surfaces<br>Thread M10 , 36pins<br>Max Height = 24mm")
 		(property "Reference" "J5"
 			(at -9.56 7.69 0)
@@ -2609,7 +2609,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "8202d251-2acc-48d2-8f06-c48be5c5cb52")
-		(at 98.25 271.5)
+		(at 99 270.5)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -5623,7 +5623,7 @@
 		)
 	)
 	(gr_text "Sarah Qadar\nShell Eco Marathon 2023"
-		(at 98.25 277.75 0)
+		(at 98.25 276.75 0)
 		(layer "F.SilkS")
 		(uuid "c8ce8a3a-86f3-4567-96bd-06f4a1764c90")
 		(effects
@@ -6613,12 +6613,12 @@
 		(uuid "37380b5a-1af3-451a-a614-b0bf4dcfe039")
 	)
 	(segment
-		(start 200.715 265.645)
-		(end 197.27 265.645)
+		(start 191.795 265.645)
+		(end 188 269.44)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 8)
-		(uuid "390f7c59-767b-4766-8eca-6d29005c3307")
+		(uuid "386ad487-a318-4b2a-b36d-e1efad4f7be9")
 	)
 	(segment
 		(start 200.715 265.645)
@@ -6645,12 +6645,28 @@
 		(uuid "65d16d89-e6a8-4571-84b9-58bf6d555a35")
 	)
 	(segment
-		(start 197.27 265.645)
-		(end 188.595 274.32)
+		(start 200.715 265.645)
+		(end 191.795 265.645)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 8)
-		(uuid "77ea5871-9f05-46ab-9958-987447ad6cd7")
+		(uuid "819cd740-c859-434c-a50f-b2dbd31eeb48")
+	)
+	(segment
+		(start 183.54 266.04)
+		(end 177.31 272.27)
+		(width 3)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "95c12309-e8e5-4054-9be6-17c70bb58624")
+	)
+	(segment
+		(start 173.3975 272.27)
+		(end 171.45 274.2175)
+		(width 3)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "98b9e27a-9d23-45b1-ae52-9bde68413595")
 	)
 	(segment
 		(start 177.58 272)
@@ -6661,14 +6677,6 @@
 		(uuid "bc0cde61-1da6-452d-99c5-7a70c36b1ce0")
 	)
 	(segment
-		(start 173.3975 272.27)
-		(end 171.45 274.2175)
-		(width 3)
-		(layer "F.Cu")
-		(net 8)
-		(uuid "e6023864-10b3-4ccf-a9f7-9ef1a0ca5505")
-	)
-	(segment
 		(start 166 272)
 		(end 177.58 272)
 		(width 16)
@@ -6677,12 +6685,12 @@
 		(uuid "e89bfc20-e312-4195-a2b1-92dfdb77b7e3")
 	)
 	(segment
-		(start 189.865 272.27)
+		(start 177.31 272.27)
 		(end 173.3975 272.27)
 		(width 3)
 		(layer "F.Cu")
 		(net 8)
-		(uuid "f2ef5ca8-ed82-4ad1-842b-c114c13ffd3f")
+		(uuid "eb874962-f1db-4591-ab00-805d40a7b23b")
 	)
 	(segment
 		(start 177.83 271.75)
