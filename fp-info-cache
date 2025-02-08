@@ -1,4 +1,4 @@
-23867083371878838
+23870561432757043
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95998,11 +95998,25 @@ igbt diode module
 25
 25
 URBAN_CELL_CUSTOM_footprints
+AMP_01x01_WTB036SV061250R_RADSOKPOWERLOK
+
+
+0
+17
+1
+URBAN_CELL_CUSTOM_footprints
 MOLEX_01X01_BARRIER_BLOCK
 
 
 0
 1
+1
+URBAN_CELL_CUSTOM_footprints
+PHOENIX_01x01_1190362_TERMBLOCK_ANGLED
+
+
+0
+2
 1
 URBAN_CELL_CUSTOM_footprints
 PHOENIX_1889262
