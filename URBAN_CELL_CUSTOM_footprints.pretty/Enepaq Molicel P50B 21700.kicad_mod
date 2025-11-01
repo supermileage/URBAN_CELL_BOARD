@@ -1,0 +1,184 @@
+(footprint "Enepaq Molicel P50B 21700"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "BT**"
+		(at -9 6 0)
+		(layer "F.SilkS")
+		(uuid "c6a88dec-1bf3-4e57-a361-4c1dd1e7a43d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery_Cell"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f52eb351-c79a-4cbd-a6fd-b01eb7b92bb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Battery:Enepaq Molicel P50B 21700"
+		(at 26.797 -13.208 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06fe46ee-ab86-457b-a0b8-232e273cf277")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a042c36b-c266-4a7b-a23e-fb3d830771e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c402a48-83f9-43be-a3ae-abed7df08621")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -11.65 -12)
+		(end 62.75 12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "1553f2b0-02fb-40f8-93ba-27825e310f4f")
+	)
+	(fp_rect
+		(start -11.65 -12)
+		(end 62.75 12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "341e178d-bd1d-41de-9772-833036711749")
+	)
+	(fp_text user "BLUE"
+		(at 51.181 -8.001 0)
+		(layer "F.SilkS")
+		(uuid "5cc4840b-db7d-4899-8555-d531fd20a22c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 13.843 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "842e23a4-cf99-4cf3-a986-5d30bbabea09")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 1)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 37.592 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cdfde176-95f7-4647-a73c-05fa296f66e9")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 1)
+			)
+		)
+	)
+	(fp_text user "RED"
+		(at 0 -8 0)
+		(layer "F.SilkS")
+		(uuid "d3d76c12-3602-4260-ae0a-37dd301c1644")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4b0408dd-6920-4a55-9300-9bc0c60461b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 9 9)
+		(drill 5.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3842a8f2-2dc3-48ad-82ac-f65e24edf2c6")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 15.001 13.2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "39d8b6e0-ceba-4f87-8fba-02fed76b8a54")
+	)
+	(pad "2" thru_hole circle
+		(at 51.1 0)
+		(size 9 9)
+		(drill 5.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d22615ff-3bec-4fde-81d2-b4586f0ed39e")
+	)
+	(pad "2" smd rect
+		(at 51.1 0)
+		(size 15.001 13.2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "0ff01133-66a2-4b98-a3f0-8a73d1cce62c")
+	)
+	(model "${KIPRJMOD}/URBAN_CELL_CUSTOM_models/1x4p v1.step"
+		(offset
+			(xyz -9 0 -25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
+)
