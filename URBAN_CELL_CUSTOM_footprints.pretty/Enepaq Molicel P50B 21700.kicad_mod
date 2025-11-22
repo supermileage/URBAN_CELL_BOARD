@@ -152,7 +152,7 @@
 	)
 	(pad "1" smd rect
 		(at 0 0)
-		(size 15.001 13.2)
+		(size 15 13)
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "39d8b6e0-ceba-4f87-8fba-02fed76b8a54")
 	)
@@ -166,7 +166,7 @@
 	)
 	(pad "2" smd rect
 		(at 51.1 0)
-		(size 15.001 13.2)
+		(size 15 13)
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "0ff01133-66a2-4b98-a3f0-8a73d1cce62c")
 	)

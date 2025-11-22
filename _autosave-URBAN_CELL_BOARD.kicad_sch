@@ -3399,7 +3399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/556/5569/039301180_sd.pdf?inline"
 			(at 59.055 33.02 0)
 			(effects
 				(font
