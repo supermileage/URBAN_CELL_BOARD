@@ -86,7 +86,7 @@
 			(disableapertmacros no)
 			(usegerberextensions yes)
 			(usegerberattributes no)
-			(usegerberadvancedattributes no)
+			(usegerberadvancedattributes yes)
 			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerbers2.2/")
+			(outputdirectory "gerbers 2.3/")
 		)
 	)
 	(net 0 "")
@@ -5386,7 +5386,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Sarah Qadar\n{dblquote}ON YOUR (BATTERY) BLOCK{dblquote}\nShell Eco Marathon 2025"
+	(gr_text "Sarah Qadar\n{dblquote}ON YOUR (BATTERY) BLOCK{dblquote}\nShell Eco Marathon 2026"
 		(at 95.476548 276.577174 0)
 		(layer "F.SilkS")
 		(uuid "c8ce8a3a-86f3-4567-96bd-06f4a1764c90")
